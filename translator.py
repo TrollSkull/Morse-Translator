@@ -1,3 +1,5 @@
+# Morse Translator by TrollSkull © 2020
+
 import time, os, sys
 
 loop = 1
