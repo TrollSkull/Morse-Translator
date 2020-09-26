@@ -32,6 +32,7 @@ while (loop == 1):
 	ter = str(input(chr(27)+"[1;0;37m"+"Morse "+chr(27)+"[1;36m"+">>"+chr(27)+"[1;37m"+" "))
 	if ter == "translator":
 		print(chr(27)+"[1;34m"+"\n["+chr(27)+"[1;32m"+"✓"+chr(27)+"[1;34m"+"]"+chr(27)+"[1;37m"+" Translator activated")
+		print(chr(27)+"[1;30m"+"\n[INFO] Type a message to translate into morse\nOr you can translate morse to normal message")
 		def morse(txt):
 			encrypt = {'A':'.-', 'B':'-...', 'C':'-.-.',
                'D':'-..', 'E':'.', 'F':'..-.',
@@ -46,11 +47,13 @@ while (loop == 1):
 			decrypt = {v: k for k, v in encrypt.items()}
     
 			if '-' in txt:
-				print("") # Morse a Idioma
+				print("")
+				# Morse a Idioma
 				return ''.join(decrypt[i] for i in txt.split())
 				print("")
 			else:
-				print("") # Idioma a Morse
+				print("")
+				# Idioma a Morse
 				return ' '.join(encrypt[i] for i in txt.upper())
 				print("")
 		
@@ -67,7 +70,7 @@ while (loop == 1):
 	elif ter == "about":
 		print(chr(27)+"[1;36m"+"""
    Author:"""+chr(27)+"[1;37m"+""" 	     	 TrollSkull
-   """+chr(27)+"[1;36m"+"""Version:"""+chr(27)+"[1;37m"+"""   	 	 Alpha 1.1"""+chr(27)+"[1;36m"+"""
+   """+chr(27)+"[1;36m"+"""Version:"""+chr(27)+"[1;37m"+"""   	 	 Alpha 1.2"""+chr(27)+"[1;36m"+"""
    Name:"""+chr(27)+"[1;37m"+"""		 Morse Translator"""+chr(27)+"[1;36m"+"""
    Contact:"""+chr(27)+"[1;37m"+"""		 trollskull.contact@gmail.com
    
@@ -77,7 +80,7 @@ while (loop == 1):
 		print(chr(27)+"[1;36m"+"""
       COMMAND                        DESCRIPTION"""+chr(27)+"[1;37m"+"""
   ---------------	-------------------------------------
-   translator		 Translate to Morse and vice versa
+   translator		 Translate to morse and vice versa
   
    change log		 The list of changes in this version
    about		 Show information about this program
@@ -90,7 +93,11 @@ while (loop == 1):
 		print(chr(27)+"[1;36m"+"\nChanges 1.1:\n")
 		print(chr(27)+"[1;37m"+"""Added \"clear\" command
 		
-Change in program structure
+Change in program structure""")
+		print(chr(27)+"[1;36m"+"\nChanges 1.2:\n")
+		print(chr(27)+"[1;37m"+"""Added warning messages to make the script more understandable
+
+Minor bug fixes
 """)
 	else:
 		print(chr(27)+"[1;34m"+"\n["+chr(27)+"[1;31m"+"!"+chr(27)+"[1;34m"+"]"+chr(27)+"[1;37m"+" Command \"" + ter + "\" not found\n")
