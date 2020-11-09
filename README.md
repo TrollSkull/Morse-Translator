@@ -11,7 +11,7 @@
 
 	$ cd Morse-Translator
 
-	$ python3 translator.py
+	$ python translator.py
 
 ## Screenshots
 
