@@ -7,8 +7,6 @@
 
 	$ pkg install -y python
 
-	$ pkg install -y python3
-
 	$ git clone https://github.com/TrollSkull/Morse-Translator
 
 	$ cd Morse-Translator
