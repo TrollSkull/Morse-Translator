@@ -19,6 +19,8 @@
 
 ![2](https://user-images.githubusercontent.com/64570084/94212147-c66a3a00-fea9-11ea-868d-2c28d831bfc4.jpg)
 
+------------------------------------------------------------------------
+
 ## Contact me
 trollskull.contact@gmail.com
 
