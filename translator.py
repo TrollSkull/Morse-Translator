@@ -1,4 +1,4 @@
-# Morse Translator by TrollSkull © 2020
+# Coded by @TrollSkull
 
 import time, os, sys
 
