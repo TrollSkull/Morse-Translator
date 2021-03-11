@@ -2,6 +2,8 @@
 - Translate to Morse and vice versa
 - Made in Python 3
 
+Version 1.2
+
 ## Instalation
 	$ pkg install -y git
 
