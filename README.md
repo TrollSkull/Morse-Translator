@@ -9,9 +9,9 @@ Version 1.2
 
 	$ pkg install -y python
 
-	$ git clone https://github.com/TrollSkull/Morse-Translator
+	$ git clone https://github.com/TrollSkull/MorseTranslator
 
-	$ cd Morse-Translator
+	$ cd MorseTranslator
 
 	$ python translator.py
 
